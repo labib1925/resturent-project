@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Work Sans", sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Work Sans";
+}
+nav {
+    width: 100%;
+    height: 75px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: aquamarine;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    color: white;
+    
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+.btn-cont {
+    text-align: center;
+}
+
+.btn {
+
+    padding: 21px 32px 21px 32px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    cursor: pointer;
+}
+
+#hero {
+    height: 1080px;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hero .hero-content {
+    width: 1023px;
+    margin: 0 auto;
+}
+
+#hero .hero-content .subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 16px;/
+}
+
+#hero .hero-content .title {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+
+#hero .hero-content .description {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 32px;
+
+}
+
+#card-box {
+    width: 1320px;
+    margin: 167px auto;
+}
+
+#card-box .info {}
+
+#card-box .title {
+
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+#card-box .subtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+
+}
+
+.card-container {
+    margin-top: 46px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Work Sans;
+
+
+}
+
+.card {
+    max-width: 424px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .image-box {
+
+    width: 424px;
+}
+
+.card .image-box img {
+    width: 100%;
+}
+
+.card .shop {
+
+    padding: 14px 32px 14px 32px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+}
+
+#foot {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.918) -19.5%, rgba(255, 255, 255, 0.884) 100%), url("../assets/social-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+#foot .fot-content,
+#foot .fot-img {
+    width: 50%;
+}
+
+#foot .fot-content .big {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.fottercontainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialicons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialicons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+
+.socialicons a i {
+    font-size: 2em;
+    opacity: 0.9;
+}
+
+/* Hover Effects on social Media Icons */
+.socialicons a:hover {
+    background-color: lightseagreen;
+    transition: 0.5s;
+}
+
+.socialicons a:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+#foot .fot-content .small {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+
+}
+
+.ant {
+    text-align: center;
+}
+
+.ant .lastbtn {
+
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.fot-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastbtn {
+    border: none;
+
+}
+
+.socialicons {
+    margin-right: 60px;
+}
+
+#foot {
+    display: flex;
+}
+
+#foot img {
+    max-width: 100%;
+}
